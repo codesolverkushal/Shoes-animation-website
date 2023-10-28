@@ -131,7 +131,7 @@ section .main .main_content .main_image img{
 }
 
 section .main .main_content .main_image img:hover{
-    transform: scale(1) rotate(360deg); 
+    transform: scale(1.1);
     transition: transform 2s ease; 
 }
 
@@ -167,8 +167,12 @@ section .main .button{
     padding: 10px 20px;
     border-radius: 30px;
     background: linear-gradient(to right,#c72092 , #6c14d0);
+    transition: all 1s;
    
    
+}
+section .main .button:hover{
+    padding: 18px 25px;
 }
 
 section .main .button a{
